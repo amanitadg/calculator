@@ -1,0 +1,29 @@
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-items: center; */
+    background: hsla(0, 0%, 34%, 1);
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.button:hover {
+    background: hsla(0, 0%, 44%, 1);
+}
+
+.operator {
+    background: hsla(223, 60%, 43%, 1);
+}
+
+.operator:hover {
+    background: hsla(223, 60%, 53%, 1);
+}
+
+.extraOperator {
+    background: hsla(0, 0%, 21%, 1);
+}
+
+.extraOperator:hover {
+    background: hsla(0, 0%, 31%, 1);
+}

@@ -1,0 +1,25 @@
+.display-prev {
+    grid-column: span 4;
+    font-size: 18px;
+    opacity: 0.5;
+    align-self: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 29px;
+}
+
+.display-curr {
+    grid-column: span 4;
+    align-self: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 59px;
+}
+
+.display-curr, .display-prev {
+    padding-right: 0.1em;
+    padding-left: 0.1em;
+}
+
